@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: sqa.bottomup.BottomUpIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.061 s <<< FAILURE! -- in sqa.bottomup.BottomUpIntegrationTest
+sqa.bottomup.BottomUpIntegrationTest.bu10_fullIntegration_weight_expectsCorrectMath -- Time elapsed: 0.006 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Defect confirmed present after full integration ==> expected: <5000.0> but was: <0.005>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at sqa.bottomup.BottomUpIntegrationTest.bu10_fullIntegration_weight_expectsCorrectMath(BottomUpIntegrationTest.java:84)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+sqa.bottomup.BottomUpIntegrationTest.bu3_weight_kgToGram_expectsCorrectMath -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Defect: kilogram->gram multiplier is reversed in WeightConverter ==> expected: <5000.0> but was: <0.005>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at sqa.bottomup.BottomUpIntegrationTest.bu3_weight_kgToGram_expectsCorrectMath(BottomUpIntegrationTest.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+sqa.bottomup.BottomUpIntegrationTest.bu6_temperature_hundredCtoF_expectsCorrectMath -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Defect: TemperatureConverter C->F uses integer division 9/5 ==> expected: <212.0> but was: <132.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at sqa.bottomup.BottomUpIntegrationTest.bu6_temperature_hundredCtoF_expectsCorrectMath(BottomUpIntegrationTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+sqa.bottomup.BottomUpIntegrationTest.bu4_weight_ounceToLbs_expectsCorrectMath -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Defect: WeightConverter checks "once" instead of "ounce" ==> expected: <1.0> but was: <16.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at sqa.bottomup.BottomUpIntegrationTest.bu4_weight_ounceToLbs_expectsCorrectMath(BottomUpIntegrationTest.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+sqa.bottomup.BottomUpIntegrationTest.bu8_temperature_twoTwelveFtoC_expectsCorrectMath -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Defect: TemperatureConverter F->C uses integer division 5/9 ==> expected: <100.0> but was: <0.0>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:86)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1024)
+	at sqa.bottomup.BottomUpIntegrationTest.bu8_temperature_twoTwelveFtoC_expectsCorrectMath(BottomUpIntegrationTest.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
