@@ -1,9 +1,0 @@
-sqa\bottomup\DriverDistance.class
-sqa\bottomup\BottomUpIntegrationTest.class
-sqa\bottomup\DriverWeight.class
-sqa\topdown\TopDownIntegrationTest.class
-sqa\topdown\StubWeightConverter.class
-sqa\bottomup\DriverMain.class
-sqa\topdown\StubTemperatureConverter.class
-sqa\topdown\StubDistanceConverter.class
-sqa\bottomup\DriverTemperature.class

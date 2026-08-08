@@ -1,5 +1,7 @@
 package sqa.topdown;
-
+/*
+ * ณัชพล เพ็งพล 673380267-4
+ */
 import sqa.main.WeightConverter;
 
 public class StubWeightConverter extends WeightConverter {
